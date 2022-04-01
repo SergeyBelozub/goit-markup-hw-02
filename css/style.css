@@ -47,7 +47,13 @@ body {
 .logo-studio {
     color: #000000;
 } 
-.studio,
+.studio {
+    font-weight: 500;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+    
+    color: var(--color-btn);
+}
 .portfolio,
 .contact {
     font-weight: 500;
