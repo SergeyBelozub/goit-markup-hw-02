@@ -14,14 +14,15 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     background: var(--first-color-content);
-    text-decoration: none;
-    list-style-type: none;
+    
 }
 
 *,
 *::after,
 *::before {
-   box-sizing: inherit;
+    box-sizing: inherit;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 .visually-hidden {
