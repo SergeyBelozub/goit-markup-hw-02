@@ -1,3 +1,6 @@
+html {
+    box-sizing: border-box;
+}
 :root {
     --main-color:#212121;
     --first-color-content: #ffffff;
@@ -11,14 +14,14 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     background: var(--first-color-content);
+    text-decoration: none;
+    list-style-type: none;
 }
 
 *,
 *::after,
 *::before {
-   box-sizing: border-box;
-   text-decoration: none; 
-   list-style-type: none; 
+   box-sizing: inherit;
 }
 
 .visually-hidden {
